@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    min-height: 100vh; 
+    background: url("../background.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Ballet', cursive;
+    font-family: 'Tapestry', cursive;
+}
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 107px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'Ballet', cursive;
+    font-family: 'Tapestry', cursive;
+}
+#board{
+    background: linear-gradient(rgb(170,236,170),rgb(232,235,170));
+    width: 90vmin;
+    height: 92vmin;
+    border: 4px solid gray;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+.head{
+    background-color: rgb(106, 242, 106);
+    border: 2px solid rgb(110, 205, 119);
+    transform: scale(1.02);
+    border-radius: 100%;
+}
+.snake{
+    background-color: purple;
+    border-radius: 100%;
+}
+.food{
+    background-color: rgb(219, 219, 101);
+    border-radius: 100%;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+#btn1{
+    background-color: rgb(106, 242, 106);
+    padding: 15px 25px;
+    margin-left: 20px;
+    border-radius: 100%;
+    font-family: 'Ballet', cursive;
+    font-family: 'Tapestry', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(117, 73, 158);
+}
+#btn1:hover{
+background-color: rgb(102, 197, 102);
+}
+#btn2{
+    background-color: rgb(106, 242, 106);
+    padding: 20px 35px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Ballet', cursive;
+    font-family: 'Tapestry', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(117, 73, 158);
+}
+#btn2:hover{
+    background-color: rgb(102, 197, 102);
+    }
+#btn3{
+    background-color: rgb(106, 242, 106);
+    padding: 30px 50px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Ballet', cursive;
+    font-family: 'Tapestry', cursive;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(117, 73, 158);
+}
+#btn3:hover{
+    background-color: rgb(102, 197, 102);
+    }
