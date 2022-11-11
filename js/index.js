@@ -11,13 +11,13 @@ let snakeArr=[
 ]
 food={x:6,y:7}
 function Easy(){
-    speed=5;
+    speed=7;
 }
 function Medium(){
-    speed=9;
+    speed=12;
 }
 function Hard(){
-    spped=20;
+    spped=25;
 }
 function main(ctime){
     window.requestAnimationFrame(main);
